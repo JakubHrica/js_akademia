@@ -1,3 +1,5 @@
+// Projekt: Zisťovanie a zapisovanie obľúbených kníh
+
 const readline = require('readline/promises');
 
 async function main() {
