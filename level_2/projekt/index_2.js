@@ -19,10 +19,8 @@ async function main() {
     if (books.length === 0) {
         console.log('\nNeboli pridané žiadne knihy.');
     } else {
-        let i = 1
-        for (let bookTitle of books) {
-            console.log(i + '. ' + bookTitle)
-            i++
+        for (let i = 0; i < books.length; i++) {
+            console.log((i + 1) + '. ' + books[i])
         }
     }
 
