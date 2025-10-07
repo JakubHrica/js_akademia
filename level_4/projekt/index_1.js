@@ -23,6 +23,7 @@ async function main() {
         let selectedCityData;
 
         if (cities.length > 1) {
+            // -------------------------------------------------------
             console.log('\nBolo nájdených viac výsledkov.');
             console.log('------------------------------')
 
@@ -44,7 +45,8 @@ async function main() {
 
             const selectedIndex = selectedInput - 1;
 
-            selectedCityData = cities[selectedIndex]; 
+            selectedCityData = cities[selectedIndex];
+            // -------------------------------------------------------
         } else {
             selectedCityData = cities[0];
         }
