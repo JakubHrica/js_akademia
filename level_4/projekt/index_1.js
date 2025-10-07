@@ -47,10 +47,9 @@ async function main() {
             selectedCityData = cities[selectedIndex]; 
         } else {
             selectedCityData = cities[0];
-            console.log('\nNájdený jeden výsledok: ' + selectedCityData.name + ' (' + selectedCityData.country + ')');
         }
 
-        console.log('\nVybrané mesto: ' + selectedCityData.name + selectedCityData.country);
+        console.log('\nVybrané mesto: ' + selectedCityData.name + ', ' + selectedCityData.country);
         console.log('Geografická šírka (Latitude): ' + selectedCityData.latitude);
         console.log('Geografická výška (Longitude): ' + selectedCityData.longitude);
 
